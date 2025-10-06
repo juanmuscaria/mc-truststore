@@ -8,7 +8,7 @@
     <description>Merges the cacerts from newer java versions in the current java version</description>
     <groupId>com.juanmuscaria</groupId>
     <artifactId>mc-truststore</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0</version>
 
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
