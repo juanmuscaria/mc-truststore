@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "${project.artifactId}",
+  "name": "${project.name}",
+  "description": "${project.description}",
+  "version": "${project.version}",
+  "authors": [
+    "juanmuscaria"
+  ],
+  "contact": {
+    "homepage": "https://github.com/juanmuscaria/mc-truststore",
+    "sources": "https://github.com/juanmuscaria/mc-truststore",
+    "issues": "https://github.com/juanmuscaria/mc-truststore/issues"
+  },
+  "license": "???",
+  "environment": "*",
+  "entrypoints": {
+    "preLaunch": [
+      "com.juanmuscaria.truststore.launch.FabricEntrypoint"
+    ]
+  }
+}
